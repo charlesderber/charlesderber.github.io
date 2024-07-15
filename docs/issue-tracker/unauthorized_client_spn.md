@@ -46,10 +46,10 @@ resource "azapi_resource" "umi" {
   location  = var.location
   body      = jsonencode({})
   response_export_values = [
-    **"properties.clientId"**
+    =="properties.clientId"==
   ]
 }
 
 output "user_assigned_identity_client_ids" {
-  value = { for key, umi in azapi_resource.umi : key => jsondecode(umi.output).properties.clientId }
+  value = { for key, umi in azapi_resource.umi : key => jsondecode(umi.output).properties.==clientId== }
 }
