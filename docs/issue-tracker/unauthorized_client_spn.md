@@ -9,7 +9,7 @@ When working with Terraform and Azure, encountering authentication issues can be
 
 "Initializing the backend...
 ╷
-│ Error: Failed to get existing workspaces: autorest/Client#Do: Preparing request failed: StatusCode=0 -- Original Error: clientCredentialsToken: received HTTP status 400 with response: {""error"":""unauthorized_client"",""error_description"":""AADSTS700016: Application with identifier 'b1716973-40b6-4ce5-afb8-598012c121d9' was not found in the directory 'tenant_name'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. 
+│ Error: Failed to get existing workspaces: autorest/Client#Do: Preparing request failed: StatusCode=0 -- Original Error: clientCredentialsToken: received HTTP status 400 with response: {""error"":""unauthorized_client"",""error_description"":""AADSTS700016: Application with identifier '*****-deff-4ce5-efff-lmunfeoh' was not found in the directory 'tenant_name'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. 
 
 **Understanding the Error**
 
