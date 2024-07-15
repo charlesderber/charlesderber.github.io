@@ -6,4 +6,4 @@
 
 ### Issue Tracker
 
-1. [Debugging an Unauthorized Client Error in Terraform Initialization](https://charlesderber.github.io/docs/issue-tracker/unauthorized_client_spn.md)
+1. [Debugging an Unauthorized Client Error in Terraform Initialization](hhttps://github.com/charlesderber/charlesderber.github.io/blob/main/docs/issue-tracker/unauthorized_client_spn.md)
