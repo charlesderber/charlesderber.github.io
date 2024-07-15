@@ -1,1 +1,1 @@
-# charlesderber.github.io
+# Comprehensive gudies on issue trackers and blog articles : Microsoft Azure, Infrastrucutre as a Code (Bicep, Terraform) and DevOps (GitHub).
