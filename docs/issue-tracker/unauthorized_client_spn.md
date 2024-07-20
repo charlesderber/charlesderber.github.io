@@ -4,12 +4,14 @@
 I was working on setting up an Azure infrastructure using Terraform. The setup required authentication through a service principal. The Terraform configuration included the Azure provider setup with the necessary credentials.
 
 When working with Terraform and Azure, encountering authentication issues can be quite frustrating. One common error is related to the Azure Active Directory (AAD) and involves an unauthorized_client error during the terraform backend initialization phase. 
+<br>
 
 **This error typically looks like:**
 
 "Initializing the backend...
 ╷
 │ Error: Failed to get existing workspaces: autorest/Client#Do: Preparing request failed: StatusCode=0 -- Original Error: clientCredentialsToken: received HTTP status 400 with response: {""error"":""unauthorized_client"",""error_description"":""AADSTS700016: Application with identifier '*****-deff-4ce5-efff-lmunfeoh' was not found in the directory 'tenant_name'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. 
+<br>
 
 **Understanding the Error**
 
@@ -35,6 +37,7 @@ resource "azapi_resource" "umi" {
 }
 
 The solution is to replace **"properties.principalId"** with **"properties.clientid"** and also configure the output file for referencing other caller module. 
+<br>
 
 **The updated code id below:**
 
