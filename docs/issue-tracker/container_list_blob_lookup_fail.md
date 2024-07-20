@@ -3,6 +3,7 @@
 While running the GitHub runner to connect to an Azure Storage Account for Terraform state file management, I encountered the following error:
 
 "Initializing the backend... 17╷ 18│ Error: Failed to get existing workspaces: containers.Client#ListBlobs: Failure sending request: StatusCode=0 -- Original Error: Get ""https://storageaccountname.blob.core.windows.net/statefile?comp=list&prefix=terraform.tfstateenv%3A&restype=container"": ==dial tcp: lookup storageaccountname.blob.core.windows.net on 127.0.0.53:53: no such host== 19│"
+<br>
 
 **Background about the setup:**
 
@@ -12,6 +13,7 @@ While running the GitHub runner to connect to an Azure Storage Account for Terra
     - Spoke Subscription B's VNet is peered with Spoke Subscription A's VNet.
 
 The error message indicates a DNS resolution issue where the GitHub runner cannot resolve the storage account’s private endpoint (storageaccountname.blob.core.windows.net).
+<br>
 
 **Solution:**
 

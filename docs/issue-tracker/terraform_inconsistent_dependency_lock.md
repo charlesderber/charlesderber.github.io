@@ -15,16 +15,19 @@ Releasing state lock. This may take a few moments...
 │ to the same configuration it was created from.
 │ 
 │ Create a new plan from the updated configuration.
+<br>
 
 
 **Background**
 
 I have Terraform resource modules with the version specified as ==required_version = ">= 1.3.0==" in the Terraform version block. However, in the module caller Terraform version file, there was no required_version parameter.
+<br>
 
 **My setup includes two GitHub workflows:**
 
 Terraform Plan Workflow: Generates a plan and creates a package for the apply workflow.
 Terraform Apply Workflow: Downloads the package from the plan workflow and applies it.
+<br>
 
 **Problem Identification**
 During the plan workflow, the Terraform initialization used provider versions as follows:
@@ -56,6 +59,7 @@ Initializing provider plugins...
 - Installed hashicorp/azurerm v3.107.0 (signed by HashiCorp)
 
 The apply workflow used ==azurerm v3.107.0==, leading to a version mismatch and the Inconsistent dependency lock file error.
+<br>
 
 **Solution**
 
@@ -74,6 +78,7 @@ terraform {
 }
 
 By updating the code to include required_version = ">= 1.3.0" in both the resource module and the module caller, the inconsistency was resolved. Both plan and apply workflows executed successfully without further errors.
+<br>
 
 **Conclusion**
 
