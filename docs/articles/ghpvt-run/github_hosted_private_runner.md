@@ -1,5 +1,6 @@
 **Securing GitHub-Hosted Runners with Azure Private Networking: A Step-by-Step Guide**
 <br>
+
 **Introduction**
 
 Private networking for GitHub-hosted runners allows organizations to run their CI/CD workflows securely within an Azure virtual network (VNET). This capability provides enhanced security by isolating the runner environment from the public internet, ensuring that sensitive code and data remain protected during the build and deployment processes
