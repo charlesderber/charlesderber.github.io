@@ -1,7 +1,8 @@
 [**GitHub Profile**](https://github.com/charlesderber)
+<br>
 
 ### Insights and Guides on Issue Trackers, Blogs, and Monthly Newsletters
-<br>
+
 
 - Microsoft Azure Infrastructure. 
 - Infrastrucutre as a Code (ARM, PowerShell, Bicep, Terraform).
