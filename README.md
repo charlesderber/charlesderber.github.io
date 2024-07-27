@@ -28,6 +28,7 @@
 
 - [August 2023 - June 2024](https://docs.google.com/document/d/1PuHCktLfi3c7OwNPDHSso4cWmsus5dT6J_BgrQJ4fZU)
 <br>
+
 ### Session Organized and Deliverd
 
 - [Microsoft Azure Network Automation with Bicep](https://www.linkedin.com/posts/activity-7172191528432328704-SWTl/)
