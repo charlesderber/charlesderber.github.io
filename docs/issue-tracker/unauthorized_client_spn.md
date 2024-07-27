@@ -1,6 +1,5 @@
-
 **Debugging an Unauthorized Client Error in Terraform Initialization**
-
+<br>
 I was working on setting up an Azure infrastructure using Terraform. The setup required authentication through a service principal. The Terraform configuration included the Azure provider setup with the necessary credentials.
 
 When working with Terraform and Azure, encountering authentication issues can be quite frustrating. One common error is related to the Azure Active Directory (AAD) and involves an unauthorized_client error during the terraform backend initialization phase. 

@@ -12,6 +12,7 @@
 
 ### Issue Trackers
 
+- [Troubleshooting Azure Federated Identity Error in GitHub Actions](https://github.com/charlesderber/charlesderber.github.io/blob/main/docs/issue-tracker/federated_identity_github.md)
 - [Debugging an Unauthorized Client Error in Terraform Initialization](https://github.com/charlesderber/charlesderber.github.io/blob/main/docs/issue-tracker/unauthorized_client_spn.md)
 - [Azure Storage Account Connection Issues in GitHub Runner with Terraform (TCP:53)](https://github.com/charlesderber/charlesderber.github.io/blob/main/docs/issue-tracker/container_list_blob_lookup_fail.md)
 - [Error: Inconsistent dependency lock file while running Terraform Apply](https://github.com/charlesderber/charlesderber.github.io/blob/main/docs/issue-tracker/terraform_inconsistent_dependency_lock.md)
@@ -26,3 +27,8 @@
 ### Monthly Newsletter - Azure Networking and Network Security (India Community)
 
 - [August 2023 - June 2024](https://docs.google.com/document/d/1PuHCktLfi3c7OwNPDHSso4cWmsus5dT6J_BgrQJ4fZU)
+<br>
+### Session Organized and Deliverd
+
+- [Microsoft Azure Network Automation with Bicep](https://www.linkedin.com/posts/activity-7172191528432328704-SWTl/)
+- [Microsoft Azure Network Automation with Terraform](https://www.linkedin.com/posts/activity-7186638570336509952-sFff)

@@ -1,5 +1,5 @@
 **Error: Inconsistent dependency lock file while running Terraform Apply**
-
+<br>
 While running terraform apply to deploy Azure resources, I encountered the following error:
 
 
