@@ -33,3 +33,4 @@
 
 - [Microsoft Azure Network Automation with Bicep](https://www.linkedin.com/posts/activity-7172191528432328704-SWTl/)
 - [Microsoft Azure Network Automation with Terraform](https://www.linkedin.com/posts/activity-7186638570336509952-sFff)
+- [Secure your CI/CD : Configuring Azure Private Networking for GitHub-Hosted Runners](https://www.linkedin.com/feed/update/urn:li:activity:7220181378053660672)
