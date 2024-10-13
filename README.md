@@ -20,13 +20,14 @@
 
 ### Blog Articles
 
+- [Guide on How to Migrate Local Terraform State to Terraform Cloud with the Microsoft Azure Provider](https://github.com/charlesderber/charlesderber.github.io/blob/main/docs/articles/tf-remotebackend-az-tfcloud/tf-remotebackend-az-tfcloud.md)
 - [Securing GitHub-Hosted Runners with Azure Private Networking: A Step-by-Step Guide](https://github.com/charlesderber/charlesderber.github.io/blob/main/docs/articles/ghpvt-run/github_hosted_private_runner.md)
 <br>
 
 
 ### Monthly Newsletter - Azure Networking and Network Security (India Community)
 
-- [August 2023 - June 2024](https://docs.google.com/document/d/1PuHCktLfi3c7OwNPDHSso4cWmsus5dT6J_BgrQJ4fZU)
+- [August 2023 - September 2024](https://docs.google.com/document/d/1PuHCktLfi3c7OwNPDHSso4cWmsus5dT6J_BgrQJ4fZU)
 <br>
 
 ### Session Organized and Deliverd
